@@ -12,6 +12,9 @@ class KTBase80 {
     init {
         num = num++
     }
+
+    // 等价于 return num 简化写法
+    fun getNumMethod():Int = num
 }
 
 fun main() {
