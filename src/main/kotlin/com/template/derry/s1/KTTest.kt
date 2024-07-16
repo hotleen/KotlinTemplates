@@ -7,16 +7,22 @@ package com.template.derry.s1
  **/
 
 fun main() {
-    println(twoSum(1, 2))
-    getElement("helloKotlin")
+//    println(twoSum(1, 2))
+//    getElement("helloKotlin")
+    printMultiplyTable()
 }
 
 val twoSum: (Int, Int) -> Int = { n1, n2 ->
     n1 + n2
 }
 
-fun printMultiplyTable(){
-
+fun printMultiplyTable() {
+    for (i in 1..9) {
+        for (j in 1..i) {
+            print("${j}*${i}=${i * j} ")
+        }
+        println()
+    }
 }
 
 fun getElement(msg: String) {
