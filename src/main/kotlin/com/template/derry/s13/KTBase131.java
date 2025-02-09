@@ -19,5 +19,8 @@ public class KTBase131 {
         }
 
         KTBase133Kt.show("sheldon");
+
+        String place = MyObject.place;
+        MyObject.showAction("sheldon");
     }
 }
