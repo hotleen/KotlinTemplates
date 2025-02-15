@@ -3,7 +3,7 @@ package com.template.derry.s1
 /**
  * author: jack hu
  * @Create: 2023-12-03 10:01
- * @Description:
+ * @Description: 函数不返回具体值，则返回Unit, lambda函数最后一行无返回值，默认返回Unit
  **/
 
 fun main() {

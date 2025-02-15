@@ -3,7 +3,7 @@ package com.template.derry.s1
 /**
  * author: jack hu
  * @Create: 2023-12-03 11:35
- * @Description: 反引号``
+ * @Description: 反引号``,解决与关键字的命名冲突和增强测试方法名的可读性(方法名很长或中文)
  **/
 
 fun main() {

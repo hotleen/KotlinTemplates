@@ -3,7 +3,7 @@ package com.template.derry.s1
 /**
  * author: jack hu
  * @Create: 2023-12-03 9:36
- * @Description: 具名函数参数
+ * @Description: 具名函数参数，提升代码可读性
  **/
 
 fun main() {
