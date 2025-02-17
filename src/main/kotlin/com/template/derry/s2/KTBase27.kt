@@ -19,3 +19,7 @@ fun main() {
 val methodFunc = { v1: Int, v2: String ->
     "v1:$v1, v2:$v2"
 }
+
+//自动推断方法类型
+val methodFunc2: (Int, String) -> String = { v1, v2 -> "v1:$v1, v2:$v2" }
+

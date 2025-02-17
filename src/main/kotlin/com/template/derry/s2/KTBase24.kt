@@ -8,10 +8,8 @@ package com.template.derry.s2
 
 fun main() {
 
-    val methodAction: () -> String
-
     // 自动推断函数返回值为String
-    methodAction = {
+    val methodAction: () -> String = {
         val value = 112233
         "$value Hello World!"
     }

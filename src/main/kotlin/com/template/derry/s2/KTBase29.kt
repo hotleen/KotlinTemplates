@@ -3,7 +3,7 @@ package com.template.derry.s2
 /**
  * author: jack hu
  * @Create: 2023-12-09 17:31
- * @Description:函数作为函数参数
+ * @Description:函数作为函数参数 TODO: 基于这个实现传入的回调？
  **/
 fun main() {
     //调用的时传递函数作为参数

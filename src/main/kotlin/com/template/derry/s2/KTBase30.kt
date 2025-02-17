@@ -20,6 +20,7 @@ const val USER_PWD_SAVE_DB_NEW = "12345"
  * 如果此函数，不使用内联，在调用端，会生成多个对象来完成lambda的调用，造成性能损耗
  * 如果此函数，使用内联，相当于C++ #define宏定义 宏替换，会把代码替换到调用处，调用处没有任何函数开辟 对象开辟的损耗
  * 小结：如果函数参数有lambda，尽量使用inline内联 会在内部优化，减少对象开辟的开销
+ * 高阶函数使用inline优化
  */
 inline fun loginAPINEW(username: String, userPwd: String, responseResult: (String, Int) -> Unit) {
     if (username == null || userPwd == null) {

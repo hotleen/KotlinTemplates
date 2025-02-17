@@ -3,7 +3,7 @@ package com.template.derry.s2
 /**
  * author: jack hu
  * @Create: 2023-12-16 16:26
- * @Description: 返回函数对象
+ * @Description: 返回函数对象，返回函数也是高阶函数,可以使用inline优化
  **/
 
 fun main() {
@@ -12,7 +12,7 @@ fun main() {
     println(funcObj("fun", 100))
 }
 
-fun returnMethod(info: String): (String, Int) -> String {
+inline fun returnMethod(info: String): (String, Int) -> String {
     println("这个函数返回值是一个函数， info:$info")
 
     return { name: String, age: Int ->
