@@ -3,7 +3,7 @@ package com.template.derry.s6
 /**
  * author: jack hu
  * @Create: 2024-01-02 20:21
- * @Description:
+ * @Description:forEach和forEachIndexed循环便利，一个不带索引，一个带索引
  **/
 fun main() {
     val list = listOf(1, 2, 3, 4, 5, 6, 7)
