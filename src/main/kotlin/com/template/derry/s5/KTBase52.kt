@@ -16,6 +16,7 @@ fun testRun() {
         println("last char: ${this.last()}")
     }
 
+    //函数引用相当于：info.run { s: String -> isLongStr(s) },等价于 isLongStr(info)。
     info.run(::isLongStr)
         .run {
             println("result $this")

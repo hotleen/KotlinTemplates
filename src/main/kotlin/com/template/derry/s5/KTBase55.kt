@@ -4,6 +4,7 @@ package com.template.derry.s5
  * author: jack hu
  * @Create: 2023-12-24 11:11
  * @Description: takeIf: 判断返回true，返回调用本身，false，返回null
+ * 适用于根据条件过滤数据、避免if-else、结合?.let使用
  **/
 
 fun main() {

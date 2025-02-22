@@ -3,7 +3,8 @@ package com.template.derry.s5
 /**
  * author: jack hu
  * @Create: 2023-12-29 21:10
- * @Description:
+ * @Description: getOrElse 如果索引有效 ➝ 返回 List 中的元素 如果索引超出范围 ➝ 返回默认值（Lambda 表达式）
+ * 避免 IndexOutOfBoundsException，安全访问 List 数据
  **/
 fun main() {
     val list:List<String> = listOf("tom","jerry","frank")
