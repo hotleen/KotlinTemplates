@@ -5,7 +5,7 @@ import java.util.*
 /**
  * author: jack hu
  * @Create: 2024-01-23 22:33
- * @Description:
+ * @Description: 属性代理
  **/
 
 class KTBase70 {
@@ -17,6 +17,7 @@ class KTBase70 {
      * public setName
      */
 
+    //field适用于get、set方法访问属性变量
     var value = "abc"
     // 隐式代码 不写也会有
 //    get() = field

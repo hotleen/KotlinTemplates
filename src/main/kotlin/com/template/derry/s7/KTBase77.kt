@@ -9,8 +9,7 @@ class KTBase77(_name: String, val gender: Char) {
     val mName = _name
 
     init {
-        val nameValue = _name
-        println("init block: nameValue: $nameValue")
+        println("init block: nameValue: $_name")
     }
 
     constructor(name:String,gender: Char,age:Int):this(name,gender) {
