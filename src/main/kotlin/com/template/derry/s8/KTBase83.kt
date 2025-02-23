@@ -3,9 +3,10 @@ package com.template.derry.s8
 /**
  * author: jack hu
  * @Create: 2024-01-27 11:02
- * @Description:
+ * @Description: open关键字
  **/
-// class 默认public final, 加open 移除final
+// class 默认public final, 不能被继承，重写
+// open class 的含义是该类可以被继承,重写
 open class Person(private val name: String) {
     // Kotlin 函数默认final修饰 不可被子类重写，需要加open
     private fun showName() = "person name is $name"

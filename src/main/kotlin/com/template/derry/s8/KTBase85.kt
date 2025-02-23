@@ -6,6 +6,7 @@ package com.template.derry.s8
  * @Description:
  **/
 open class Person2(private val name: String) {
+    // 主构造器 private val name 定义了一个私有的属性，只有 Person2 内部 能访问 name
     // Kotlin 函数默认final修饰 不可被子类重写，需要加open
     private fun showName() = "person name is $name"
 
