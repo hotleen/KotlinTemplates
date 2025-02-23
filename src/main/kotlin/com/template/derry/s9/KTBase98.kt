@@ -5,6 +5,9 @@ package com.template.derry.s9
  * @Create: 2024-02-25 18:09
  * @Description: 密封类 枚举类传递信息
  * & 乔迁大吉
+ *
+ * sealed class（密封类）用于限制继承，适用于表示一组固定类型的层次结构。
+ * 它本质上是一个受限的抽象类，但它的子类必须定义在同一个文件中。
  **/
 
 sealed class ExamInfo {
